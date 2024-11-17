@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Your Rose</title> 
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .rose {
+      max-width: 80%;
+      max-height: 80%;
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style> 
+ </head> 
+ <body> 
+  <img src="https://www.pngall.com/wp-content/uploads/2016/05/Rose-Flower-PNG-Pic.png" alt="Rose" class="rose"> 
+ 
+</body></html>
